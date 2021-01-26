@@ -31,21 +31,18 @@ export default function Home() {
 
         <Widget>
           <Widget.Header>
-            <h1>The legend Zelda</h1>
+            <h1>Quiz Futebol Brasileiro</h1>
           </Widget.Header>
 
           <Widget.Content>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <p>Teste seus conhecimentos sobre o futebol Brasileiro e divirta-se tentando descobrir as respostas!</p>
           </Widget.Content>
         </Widget>
 
         <Widget>
-          <Widget.Header>
-            <h1>Quizes da Galera</h1>
-          </Widget.Header>
-          
           <Widget.Content>
-            <p>Lorem ipsum dolor sit amet...</p>
+            <h1>Quizes da Galera</h1>
+            <p>Dá uma olhada nesses quizes incríveis que o pessoal da Imersão React Next.js fez: </p>
           </Widget.Content>
         </Widget>
         <Footer />
