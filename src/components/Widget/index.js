@@ -53,35 +53,24 @@ Widget.Content = styled.div`
     list-style: none;
     padding:0;
   }
-  input {
-    padding: 10px;
-    width:280px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    font-family: sans-serif;
-    font-size: 20px;
-    border:1px solid green;
-    margin-bottom: 30px;
-    margin: 5 auto;
-  }
-  button {
-    padding: 10px;
-    width:280px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-size: 25px;
-    border:1px solid green;
-    color: #ffff;
-    background-color: #52b202;
-    margin: 5 auto;
-  }
-  input:hover {
-    background-color: #b0bec5;
-    box-shadow: 1px 1px 2px gray;
-}
 `;
+
+Widget.Topic = styled.a`
+  outline: 0;
+  text-decoration: none;
+  color: ${({ theme }) => theme.colors.contrastText};
+  background-color: ${({ theme }) => `${theme.colors.primary}40`};
+  padding: 10px 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  border-radius: ${({ theme }) => theme.borderRadius};
+  transition: .3s;
+  display: block;
+  
+  &:hover,
+  &:focus {
+    opacity: .5;
+  }
+`;
+
 export default Widget;

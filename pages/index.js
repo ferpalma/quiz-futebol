@@ -8,7 +8,9 @@ import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
-// import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
+import QuizLogo from '../src/components/QuizLogo';
 
 // const BackgroundImage = styled.div`
 //   background-image: url(${db.bg});
@@ -17,7 +19,7 @@ import QuizBackground from '../src/components/QuizBackground';
 //   background-position:  center;
 // `
 
-export const QuizContainer = styled.div`
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -31,24 +33,22 @@ export const QuizContainer = styled.div`
 export default function Home() {
   const router = useRouter();
   const [name, setName] = React.useState('');
-  // eslint-disable-next-line no-console
-  console.log('Retorno do useState', name, setName);
 
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>AluraQuiz - Futebol</title>
+        <title>{db.title}</title>
       </Head>
       <QuizContainer>
-
+        <QuizLogo />
         <Widget>
           <Widget.Header>
-            <h1>Quiz Futebol Brasileiro</h1>
+            <h1>{db.title}</h1>
           </Widget.Header>
 
           <Widget.Content>
             {/* eslint-disable-next-line max-len */}
-            <p>Teste seus conhecimentos relacionados ao futebol Brasileiro e divirta-se tentando descobrir as respostas!</p>
+            <p>{db.description}</p>
             <form onSubmit={function (infosDoEvento) {
               // router manda para a próxima página
               infosDoEvento.preventDefault();
@@ -57,20 +57,16 @@ export default function Home() {
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
-              <input
-                onChange={function (infosDoEvento) {
-                  // eslint-disable-next-line no-console
-                  console.log(infosDoEvento.target.value);
-                  // state
-                  // name = infosDoEvento.target.value;
-                  setName(infosDoEvento.target.value);
-                }}
-                placeholder="Diz aí seu nome :)"
+              <Input
+                name="nomeDoUsuario"
+                onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
+                placeholder="Diz ai seu nome"
+                value={name}
               />
               <br />
-              <button type="submit" disabled={name.length === 0}>
-                Jogar
-              </button>
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
