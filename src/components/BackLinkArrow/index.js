@@ -7,6 +7,7 @@ import Link from '../Link';
 const StyledLink = styled(Link)`
   transition: .3s;
   &:hover {
+    
     opacity: .5;
   }
 `;
