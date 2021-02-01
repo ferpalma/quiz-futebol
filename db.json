@@ -1,81 +1,84 @@
 {
-    "bg": "https://www.sportsvalue.com.br/wp-content/uploads/2018/08/campo-iluminado-b.png",
-    "title": "Quiz Futebol Brasileiro",
-    "description": "Você sabe mesmo tudo sobre o futebol brasileiro?",
-    "questions": [
-      {
-        "image": "https://media.giphy.com/media/xUOxf1JRLpx5wy7UyY/giphy.gif",
-        "title": "Qual o atual campeão brasileiro (Agosto/2020)?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
-        "alternatives": [
-          "Corinthians",
-          "Palmeiras",
-          "Flamengo",
-          "Cruzeiro"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/3ohjVbtBgONKk296zm/giphy.gif",
-        "title": "Qual o primeiro campeão da copa do Brasil?",
-        "description": "Vamos lá, você consegue!",
-        "answer": 1,
-        "alternatives": [
-           "Cruzeiro",
-           "Grêmio",
-           "Flamengo",
-           "Botafogo"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/3o6fJ0vK8gmNCwXm00/giphy.gif",
-        "title": "Quem são os 3 maiores artilheiros do brasileirão na era dos pontos corridos?  ",
-        "description": "Não desista!",
-        "answer": 2,
-        "alternatives": [
-           "Gabigol, Diego Souza e Ronaldo",
-           "Neymar, Ronaldinho e Luis Fabiano",
-           "Fred, Diego Souza e Paulo Baier",
-           "Fred, Guerrero e Rafael Moura"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/j2YGGbAkNFSJxHKGBz/giphy.gif",
-        "title": "Qual destes é o maior campeão da Copa do Brasil?",
-        "description": "Está acabando!",
-        "answer": 1,
-        "alternatives": [
-           "Internacional",
-           "Cruzeiro",
-           "Grêmio",
-           "Vasco"
-        ]
-      },
-      {
-        "image": "https://media.giphy.com/media/MnpODAvjGf0sMpJvCc/giphy.gif",
-        "title": "Qual dessas é a única equipe a vencer o brasileirão de forma invicta?",
-        "description": "Sabia que chegaria até aqui!",
-        "answer": 1,
-        "alternatives": [
-           "São Paulo",
-           "Internacional",
-           "Corinthians",
-           "Atlético Mineiro"
-        ]
-      }
-    ],
-    "external": [
-      ""
-    ],
-    "theme": {
-      "colors": {
-        "primary": "#66bb6a",
-        "secondary": "#76ff03",
-        "mainBg": "#1b5e20",
-        "contrastText": "#FFFFFF",
-        "wrong": "#FF5722",
-        "success": "#4CAF50"
-      },
-      "borderRadius": "4px"
+  "bg": "https://www.sportsvalue.com.br/wp-content/uploads/2018/08/campo-iluminado-b.png",
+  "title": "Quiz Futebol Brasileiro",
+  "description": "Você sabe mesmo tudo sobre o futebol brasileiro?",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/xUOxf1JRLpx5wy7UyY/giphy.gif",
+      "title": "Qual o atual campeão brasileiro (Agosto/2020)?",
+      "description": "Essa é pra aquecer",
+      "answer": 2,
+      "alternatives": [
+        "Corinthians",
+        "Palmeiras",
+        "Flamengo",
+        "Cruzeiro"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3ohjVbtBgONKk296zm/giphy.gif",
+      "title": "Qual o primeiro campeão da copa do Brasil?",
+      "description": "Vamos lá, você consegue!",
+      "answer": 1,
+      "alternatives": [
+        "Cruzeiro",
+        "Grêmio",
+        "Flamengo",
+        "Botafogo"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/3o6fJ0vK8gmNCwXm00/giphy.gif",
+      "title": "Quem são os 3 maiores artilheiros do brasileirão na era dos pontos corridos?  ",
+      "description": "Não desista!",
+      "answer": 2,
+      "alternatives": [
+        "Gabigol, Diego Souza e Ronaldo",
+        "Neymar, Ronaldinho e Luis Fabiano",
+        "Fred, Diego Souza e Paulo Baier",
+        "Fred, Guerrero e Rafael Moura"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/j2YGGbAkNFSJxHKGBz/giphy.gif",
+      "title": "Qual destes é o maior campeão da Copa do Brasil?",
+      "description": "Está acabando!",
+      "answer": 1,
+      "alternatives": [
+        "Internacional",
+        "Cruzeiro",
+        "Grêmio",
+        "Vasco"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/MnpODAvjGf0sMpJvCc/giphy.gif",
+      "title": "Qual dessas é a única equipe a vencer o brasileirão de forma invicta?",
+      "description": "Sabia que chegaria até aqui!",
+      "answer": 1,
+      "alternatives": [
+        "São Paulo",
+        "Internacional",
+        "Corinthians",
+        "Atlético Mineiro"
+      ]
     }
+  ],
+  "external": [
+    "https://aluraquiz-halloween.lucaskuhn.vercel.app/",
+    "https://geek-quiz.andrevtavares.vercel.app/",
+    "https://alura-quiz-avengers.fernanda-kipper.vercel.app/",
+    "https://projeto-alura-quiz.andersonfroes.vercel.app/"
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#66bb6a",
+      "secondary": "#76ff03",
+      "mainBg": "#1b5e20",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
   }
+}
